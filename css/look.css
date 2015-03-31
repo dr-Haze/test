@@ -1,0 +1,160 @@
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+.col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16,
+.offset-0, .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7, .offset-8,
+.offset-9, .offset-10, .offset-11, .offset-12, .offset-13, .offset-14, .offset-15, .offset-16{
+	float: left;
+	position: relative;
+	min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-16{
+    width: 100%;
+}
+.col-15{
+    width: 93.75%;
+}
+.col-14{
+    width: 87.5%;
+}
+.col-13{
+    width: 81.25%;
+}
+.col-12{
+    width: 75%;
+}
+.col-11{
+    width: 68.75%;
+}
+.col-10{
+    width: 62.5%;
+}
+.col-9{
+    width: 56.25%;
+}
+.col-8{
+    width: 50%;
+}
+.col-7{
+    width: 43.75%;
+}
+.col-6{
+    width: 37.5%;
+}
+.col-5{
+    width: 31.25%;
+}
+.col-4{
+    width: 25%;
+}
+.col-3{
+    width: 18.75%;
+}
+.col-2{
+    width: 12.5%;
+}
+.col-1{
+    width: 6.25%;
+}
+
+
+.offset-16{
+    margin-left: 100%;
+}
+.offset-15{
+    margin-left: 93.75%;
+}
+.offset-14{
+    margin-left: 87.5%;
+}
+.offset-13{
+    margin-left: 81.25%;
+}
+.offset-12{
+    margin-left: 75%;
+}
+.offset-11{
+    margin-left: 68.75%;
+}
+.offset-10{
+    margin-left: 62.5%;
+}
+.offset-9{
+    margin-left: 56.25%;
+}
+.offset-8{
+    margin-left: 50%;
+}
+.offset-7{
+    margin-left: 43.75%;
+}
+.offset-6{
+    margin-left: 37.5%;
+}
+.offset-5{
+    margin-left: 31.25%;
+}
+.offset-4{
+    margin-left: 25%;
+}
+.offset-3{
+    margin-left: 18.75%;
+}
+.offset-2{
+    margin-left: 12.5%;
+}
+.offset-1{
+    margin-left: 6.25%;
+}
+.offset-0{
+    margin-left: 0;
+}
+
+
+.text-up{
+    text-transform: uppercase !important;
+}
+.center{
+    text-align: center !important;
+}
+.left{
+    text-align: left !important;
+}
+.right{
+    text-align: right !important;
+}
+.justify{
+    text-align: justify !important;
+}
+
+
+.inline{
+    display: inline-block;
+}
+.fluid-block{
+    display: inline-block;
+    width: 100%;
+}
+.pull-right{
+    float: right !important;
+}
+.pull-left{
+    float: left !important;
+}
+.clear:before,
+.clear:after,
+.row:before,
+.row:after{
+    content: " ";
+    display: table;
+}
+.clear:after,
+.row:after{
+    clear: both;
+}
