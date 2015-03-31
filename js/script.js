@@ -16,8 +16,6 @@ $(document).ready(function() {
 	$('body').on('click', function() {
 		hideActions();
 	});
-
-	$(".rslides").responsiveSlides();
 });
 
 function hideActions(){
