@@ -1,0 +1,45 @@
+body{
+	min-width: 1120px !important;
+	width: expression(document.body.clientWidth < 1120px? "1120px": "auto");
+	overflow: auto;
+}
+
+.top-nav-left li,
+.top-nav-right li{
+	font-size: 17px;
+}
+
+.top-nav-left li{
+	margin-left: 60px;
+}
+
+.top-nav-right li{
+	margin-left: 15px;
+}
+
+header #main-logo{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg-header.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg-header.png', sizingMethod='scale')";
+}
+
+header #overview-social-tool > div,
+nav{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg-nav.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg-nav.png', sizingMethod='scale')";
+}
+
+header #overview-social-tool > div span:before{
+	font-size: 100%;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+#slider .slide-container figcaption .slider-text-banner .slider-text-banner-inner {
+	padding: 20px 10px 30px;
+}
+
+#content .article-header{
+	background: #512323;
+}
