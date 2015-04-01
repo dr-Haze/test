@@ -7,17 +7,19 @@ $(window).load(function() {
 $(document).ready(function() {
 	$('select').myDropdown();
 
-	function hideActions(){
-		$('nav ul').slideUp(350);
-	};
+	var mobileMenu = $('#mobile-menu');
+	var menu = $('nav ul');
 
-	$('#mobile-menu').on('click', function() {
-		event.stopPropagation();
-		hideActions();
-		$(this).next().stop().stop().slideToggle(350);
+	$(mobileMenu).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
 	});
 
-	$('body').on('click', function() {
-		hideActions();
+	$(window).resize(function(){
+		var w = $(window).width();
+
+		if (w > 880 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}
 	});
 });
