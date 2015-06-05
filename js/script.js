@@ -2,6 +2,10 @@ $(window).load(function() {
 	$("#slider").responsiveSlides({
 		speed: 1000
 	});
+	
+	if ($(window).width() <= 880) {
+		menu.addClass('mobile-list');
+	}
 });
 
 $(document).ready(function() {
@@ -20,10 +24,6 @@ $(document).ready(function() {
 
 		if (w > 880 && menu.is(':hidden')) {
 			menu.removeAttr('style');
-		} else if (w <= 880 && menu.is(':visible')) {
-			$('body').on('click', function() {
-				menu.hide(350);
-			});
 		}
 	});
 });
