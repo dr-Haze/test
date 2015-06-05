@@ -2,14 +2,12 @@ $(window).load(function() {
 	$("#slider").responsiveSlides({
 		speed: 1000
 	});
-	
-	if ($(window).width() <= 880) {
-		$('nav ul').addClass('mobile-list');
-	}
 });
 
 $(document).ready(function() {
 	$('select').myDropdown();
+	
+	mobileClass();
 
 	var mobileMenu = $('#mobile-menu');
 	var menu = $('nav ul');
@@ -20,6 +18,8 @@ $(document).ready(function() {
 	});
 
 	$(window).resize(function(){
+		mobileClass();
+		
 		var w = $(window).width();
 
 		if (w > 880 && menu.is(':hidden')) {
@@ -27,3 +27,9 @@ $(document).ready(function() {
 		}
 	});
 });
+
+function mobileClass() {
+	if ($(window).width() <= 880) {
+		$('nav ul').addClass('mobile-list');
+	}
+}
