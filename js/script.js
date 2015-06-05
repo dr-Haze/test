@@ -20,6 +20,10 @@ $(document).ready(function() {
 
 		if (w > 880 && menu.is(':hidden')) {
 			menu.removeAttr('style');
+		} else if (w <= 880 && menu.is(':visible')) {
+			$('body').on('click', function() {
+				menu.hide(350);
+			});
 		}
 	});
 });
