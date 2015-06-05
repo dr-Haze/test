@@ -16,6 +16,10 @@ $(document).ready(function() {
 		e.preventDefault();
 		menu.slideToggle();
 	});
+	
+	$('body').on('click', function() {
+		menu.slideUp();
+	});
 
 	$(window).resize(function(){
 		mobileClass();
