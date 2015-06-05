@@ -4,7 +4,7 @@ $(window).load(function() {
 	});
 	
 	if ($(window).width() <= 880) {
-		menu.addClass('mobile-list');
+		$('nav ul').addClass('mobile-list');
 	}
 });
 
