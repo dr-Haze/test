@@ -12,8 +12,8 @@ $(document).ready(function() {
 	var mobileMenu = $('#mobile-menu');
 	var menu = $('nav ul');
 
-	$(mobileMenu).on('click', function(event) {
-		event.stopPropagation();
+	$(mobileMenu).on('click', function(e) {
+		e.stopPropagation();
 		menu.slideToggle();
 	});
 	
