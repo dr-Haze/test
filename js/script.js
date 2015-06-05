@@ -35,5 +35,5 @@ $(document).ready(function() {
 function mobileClass() {
 	if ($(window).width() <= 880) {
 		$('nav ul').addClass('mobile-list');
-	}
+	} else $('nav ul').removeClass('mobile-list');
 }
