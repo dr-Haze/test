@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 	
 	$('body').on('click', function() {
-		menu.slideUp();
+		$('.mobile-list').slideUp();
 	});
 
 	$(window).resize(function(){
