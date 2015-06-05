@@ -2,6 +2,10 @@ $(window).load(function() {
 	$("#slider").responsiveSlides({
 		speed: 1000
 	});
+	
+	if ($(window).width() <= 880) {
+		$('nav ul').addClass('mobile-list');
+	}
 });
 
 $(document).ready(function() {

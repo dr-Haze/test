@@ -468,6 +468,37 @@ nav ul li a {
   margin: auto;
   overflow: hidden !important;
 }
+#content .wrapper #fb-container .row {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #c6c6c6;
+}
+#content .wrapper #fb-container .row img {
+  width: 100%;
+}
+#content .wrapper #fb-container .row .fb-container-inner {
+  margin-top: 20px;
+  color: #6A6A6A;
+}
+#content .wrapper #fb-container .row .fb-container-inner #like,
+#content .wrapper #fb-container .row .fb-container-inner #like + span {
+  font-size: .6em;
+}
+#content .wrapper #fb-container .row .fb-container-inner #like {
+  padding: 4px 10px 4px 30px;
+  margin-right: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background: url('../images/fb-like.png') 4px 3px no-repeat, #c7c7c7;
+  background-size: 30%;
+  color: #000;
+}
+#content .wrapper #fb-container .row .fb-container-inner p {
+  font-size: .6em;
+}
+#content .wrapper #fb-container .row .fb-container-inner img {
+  padding-top: 10px;
+}
 #content .wrapper .col-one-third .article-header {
   padding: 5px 0;
   background: url('../images/bg-article.png'), #512323;
@@ -574,7 +605,7 @@ nav ul li a {
 }
 #content .wrapper .col-one-third .article-content .dropdown .dropdown ul {
   height: 250px;
-  overflow-y: scroll;
+  overflow-y: scroll !important;
   position: absolute;
   left: 0;
   top: 29px;
@@ -592,6 +623,41 @@ nav ul li a {
 }
 #content .wrapper .col-one-third .article-content .g-recaptcha {
   margin-top: 14px;
+}
+#content .wrapper .col-one-third .captcha-generator {
+  width: 100%;
+  margin-top: 20px;
+}
+#content .wrapper .col-one-third .captcha-generator .input-area td {
+  padding-top: 10px;
+}
+#content .wrapper .col-one-third .captcha-generator td {
+  width: 50%;
+  vertical-align: middle;
+  letter-spacing: -0.5px;
+  font-size: .55em;
+  color: #6A6A6A;
+}
+#content .wrapper .col-one-third .captcha-generator td a:hover {
+  text-decoration: underline;
+}
+#content .wrapper .col-one-third .captcha-generator td img {
+  width: 100%;
+  margin: 0;
+  float: right !important;
+}
+#content .wrapper .col-one-third .captcha-generator td input {
+  width: 100%;
+  padding: 2px 5px 1px;
+  border: 2px solid #D9D9D9;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 1.65em;
+  font-family: 'Montserrat' !important;
+  font-weight: 100 !important;
+}
+#content .wrapper .col-one-third .captcha-generator td:first-child {
+  padding-right: 10px;
 }
 #content .wrapper .col-one-third .service-button {
   margin-top: 30px;

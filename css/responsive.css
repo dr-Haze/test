@@ -109,10 +109,6 @@
   }
 }
 @media screen and (max-width: 640px) {
-  #slider-wrapper ul.rslides li img {
-    height: 200px;
-    width: auto;
-  }
   .row-one-third .col-one-third {
     width: 100%;
   }
@@ -145,6 +141,12 @@
   }
   .last-article .col-4 {
     width: 50%;
+  }
+}
+@media screen and (max-width: 570px) {
+  #slider-wrapper ul.rslides li img {
+    height: 200px;
+    width: auto;
   }
 }
 @media screen and (max-width: 350px) {

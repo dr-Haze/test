@@ -193,7 +193,38 @@
 						<h2>facebook</h3>
 					</div>
 					<div id="fb-container" class="article-content">
-						<div class="fb-page" data-href="https://www.facebook.com/facebook" data-hide-cover="true" data-show-facepile="false" data-show-posts="true" data-height="508"></div>
+						<div class="row">
+							<div class="col-4">
+								<img src="images/fb-avatar.png" alt="">
+							</div>
+							<div class="col-12">
+								<div class="fb-container-inner">
+									<span id="like">Like</span><span>5,322 likes</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<img src="images/fb-avatar.png" alt="">
+							</div>
+							<div class="col-12">
+								<div class="fb-container-inner">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, eum repellat. Animi recusandae!</p>
+									<img src="images/fb-image.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<img src="images/fb-avatar.png" alt="">
+							</div>
+							<div class="col-12">
+								<div class="fb-container-inner">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, eum repellat. Animi recusandae labore blanditiis harum dolores !</p>
+								</div>
+							</div>
+						</div>
+						<span class="icon-facebook"></span>
 					</div>
 					<div class="service-button center">
 						<input type="button" value="follow us" class="text-up">
@@ -382,10 +413,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="form-group">
-							<label for="" class="text-up">accept the captcha*</label>
-							<div class="g-recaptcha" data-sitekey="6LeOdwQTAAAAAG6rmcT7ug-KEF2Y8V9XEIygwSMH"></div>
-						</div>
+						<table class="captcha-generator">
+							<tr>
+								<td class="text-up"><a href="##">generate new captcha</a></td>
+								<td><img src="images/captcha.png" alt=""></td>
+							</tr>
+							<tr class="input-area">
+								<td>Enter the characters shown in the image.*</td>
+								<td><input type="text" id="address"></td>
+							</tr>
+						</table>
 					</div>
 					<div class="service-button center text-up">
 						<input type="button" value="submit" class="text-up">

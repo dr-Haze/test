@@ -34,6 +34,6 @@
 .icon-twitter:before { content: '\e801'; font-size: 180%; }
 .icon-sort:before, .dropdown > p:after { content: '\e802'; }
 .icon-arrows-cw:before { content: '\e803'; font-size: 180%; position: relative; top: 2px; }
-.icon-facebook:before { content: '\e804'; }
+.icon-facebook:before { content: '\e804'; color: #3B589D; }
 .icon-facebook-1:before { content: '\e805'; font-size: 180%; }
 .icon-menu:before { content: '\e806'; }
